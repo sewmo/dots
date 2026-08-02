@@ -1,0 +1,26 @@
+# Window Settings
+width=800
+height=600
+location=center
+show=dmenu
+prompt=Search here...
+layer=overlay
+
+# Layout
+matching=fuzzy
+layer=overlay
+no_actions=true
+always_parse_args=true
+show_all=true
+print_command=true
+insensitive=true
+allow_markup=true
+allow_images=true
+hide_scroll=true
+
+# Style
+stylesheet=style.css
+
+# Wallpaper
+#image_size=250x141
+#columns=3

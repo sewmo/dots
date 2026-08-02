@@ -1,0 +1,86 @@
+@import url('/home/cosmin/.cache/wal/colors-waybar.css');
+
+window {
+  margin: 0px;
+  background-color: transparent; 
+  border: none;
+  font-family: "JetBrains Mono", monospace;
+}
+
+#outer-box {
+  margin: 0px;
+  border: 2px solid @color4;
+  border-radius: 12px;
+  background-color: @background;
+  padding: 5px;
+  outline: none;
+  box-shadow: none;
+}
+
+#input {
+  margin: 10px;
+  border: 2px solid @color4;
+  color: @foreground;
+  background-color: @background;
+  padding: 8px;
+  border-radius: 8px;
+  outline: none; /* Mavi çerçeveyi kesin olarak engeller */
+  box-shadow: none; /* Herhangi bir mavi parlamayı engeller */
+}
+
+#input * {
+  selection-background-color: @color9;
+  selection-color: @background;
+}
+
+#input::placeholder { color: #ffffff; opacity: 0.5; }
+
+#input:focus {
+  border: 2px solid @color9; /* Mavi yerine yine senin rengin kalır */
+  outline: none;
+  box-shadow: none;
+}
+
+#prompt { color: @color3; margin-right: 5px; }
+
+#text {
+  margin: 5px;
+  border: none;
+  color: @foreground;
+  font-size: 14px;
+}
+
+#entry:selected {
+  background-color: @color4;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+#entry:selected #text {
+  font-weight: bold;
+  color: @background;
+}
+
+#entry:hover {
+  background-color: @color9;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+#img {
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+#inner-box {
+  margin: 5px;
+  border: none;
+  padding: 5px;
+  background-color: transparent;
+}
+
+#scroll {
+  margin: 0px;
+  background-color: transparent;
+  border: none;
+}

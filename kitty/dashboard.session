@@ -1,0 +1,5 @@
+layout grid
+launch cbonsai -li
+launch pipes.sh -f 100
+launch cmatrix -ab
+launch peaclock

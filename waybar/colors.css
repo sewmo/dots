@@ -1,0 +1,14 @@
+@import "../../.cache/wal/colors-waybar.css";
+
+@define-color module-bg alpha(@background, 0.85);
+@define-color tooltip-bg @module-bg;
+
+@define-color inactive @color8;
+@define-color fg @foreground;
+@define-color workspace-fg @foreground;
+@define-color highlight @color4;
+
+@define-color red @color1;
+@define-color green @color2;
+@define-color yellow @color3;
+@define-color blue @color4;
